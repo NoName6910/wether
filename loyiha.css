@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.search input {
+    width: 265px;
+    padding: 10px 15px;
+    border-radius: 154px;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/photo_2026-05-06_17-21-48.jpg);
+    background-size: cover;
+    background-position: 0px -270px;
+
+    filter: brightness(80%) blur(5px);
+    z-index: -1;
+}
+
+.continer {
+    border-radius: 15px;
+    padding: 30px 20px;
+    width: 300px;
+    background-color: rgba(1, 10, 10, 0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.day {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cloud {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.block_list {
+    width: 90px;
+    background-color: rgb(255, 255, 255, 0.15);
+    backdrop-filter: blur(50px);
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+}
+.citysearch img{
+    width: 100%;
+    
+}
+.notfound{
+    text-align: center;
+}
+.notfound img{
+    width: 100%;
+}
+.block_list img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+.aa {
+    display: flex;
+    align-items: center;
+}
+
+.aa i {
+    font-size: 25px;
+}
+.none{
+    display: none;
+}
+/* const search = document.querySelector('.search');
+const weatherinfo = document.querySelector('.weather-info');
+const day = document.querySelector('.day');
+const weather = document.querySelector('.weather');
+const aa = document.querySelector('.aa');
+const block = document.querySelector('.block');
+const blocklist = document.querySelector('.block_list'); */
